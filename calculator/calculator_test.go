@@ -5,13 +5,6 @@ import (
 	"testing"
 )
 
-//func TestCalculate(t *testing.T){
-//	add := Calculate(...string)
-//	if add != 16{
-//		t.Error("Expected: " ,16 ,"Got: ", add)
-//	}
-//}
-
 func TestCalculate(t *testing.T) {
 	var tests = []struct {
 		input []string
